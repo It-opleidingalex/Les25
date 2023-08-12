@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les 25 JavaScript & jQuery</title>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js">
+</script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js">
+</script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+<script type="text/javascript">
+$(function() {
+$("#accordion").accordion();
+});
+</script>
+</head>
+<body>
+<header><h1>Welkom dit is mijn huiswerk.</h1></header>
+<div id="accordion">
+<h3>Welkom</h3>
+<div>
+<p>Dit is mijn huiswerk les 25 <b>jQuery.</b><br />Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima itaque, doloremque iure fugiat quo autem exercitationem modi ab ducimus enim neque eius ullam facilis consequuntur eveniet laboriosam. Quidem facilis quam rem at, magnam quaerat eaque. Vel voluptate deleniti beatae ex quas voluptates, sapiente sunt minus corrupti repellat, ab, doloribus iusto.</p>
+</div>
+<h3>logo</h3>
+<div>
+<p>Dit is het logo van jQuery <br /><img src="afbeeldingen/png-transparent-jquery-plain-wordmark-logo-icon-thumbnail.png" width="200px" height="200px"></p>
+</div>
+<h3>Contact</h3>
+<div>
+<p><article class="text-lg-start text-white p-4">
+<h2 class="mb-3">Contactformulier</h2>
+<p>Heeft u vragen of opmerkingen voor mij, neem dan via het onderstaande formulier contact met mij op.</p>
+<form class="mt-5" 
+id="contact-form" 
+name="contact-form" 
+action="https://formspree.io/f/xrgwpzyo" 
+method="POST">
+<div class="row">
+<div class="col-md-6">
+<div class="md-form mb-0">
+<label for="naam" class="">Uw naam</label><br />
+<input type="text" id="naam" name="Naam" class="form-control">
+</div>
+</div>
+<div class="col-md-6">
+<div class="md-form mb-0">
+<label for="e-mail" class="">Uw e-mailadres</label><br />
+<input type="e-mail" id="e-mail" name="E-mail" class="form-control">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="md-form">
+<label for="bericht">Uw bericht</label><br />
+<textarea id="bericht" name="bericht" rows="5" class="form-control md-textarea"></textarea>
+</div>
+</div>
+</div>
+<div class="text-end mb-5">
+<button class="btn btn-primary" type="submit">Verstuur</button>
+</div> 
+</article>
+</form></p>
+</div>
+</div>
+<noscript>
+Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+</noscript>
+<footer><h6>Bedankt voor het kijken op mijn website. ©AS 2023</h6></footer>
+</body>
+</html>
